@@ -1,0 +1,133 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary {
+    height: 64px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+.btn-secondary {
+    height: 64px;
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+/* Header and navigation style */
+.header {
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
+
+/* Banner style */
+.banner {
+    margin: 0px 38px 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .left-content h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner .left-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner .left-content h1 span {
+    color: #FD6E0A;
+}
+.banner .left-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner .left-content .btn-primary {
+    margin-right: 30px;
+}
+
+/* Main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section */
+.about {
+    background-color: #fff8f3;
+    padding: 130px 160px;
+    margin: 130px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about .section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.about .section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-info .info-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
