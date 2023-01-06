@@ -203,3 +203,36 @@ main {
     text-align: center;
     margin-top: 20px;
 }
+
+/* Footer & Contact section */
+.footer{
+    background-color: #fff8f3;
+    padding: 130px 0px;
+}
+.contact{
+    display: flex;
+    gap: 120px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.address-info .section-title {
+    margin-bottom: 20px;
+}
+.address-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.address-info a {
+    margin-right: 20px;
+}
+.contact-form input[type=text], input[type=email], textarea {
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
